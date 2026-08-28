@@ -1,0 +1,14 @@
+{
+  "language": "en_us",
+  "item.extremecraftingtable.workbench": "Extreme Crafting Table",
+  "block.extremecraftingtable.workbench": "Extreme Crafting Table",
+  "itemGroup.extremecraftingtable": "Extreme Crafting Table",
+  "container.extremecraftingtable.workbench": "Extreme Crafting Table",
+  "gui.extremecraftingtable.jei.category": "Extreme Crafting Table Recipes",
+  "config.extremecraftingtable.energy.noEnergy": "No Energy Mode",
+  "config.extremecraftingtable.energy.noEnergy.tooltip": "If true, the energy system is disabled entirely: recipes craft without draining energy, and the buffer is not charged (the energy bar stays empty). Useful for creative/test mode.",
+  "config.extremecraftingtable.energy.workbenchCapacity": "Workbench Energy Capacity",
+  "config.extremecraftingtable.energy.workbenchCapacity.tooltip": "Maximum FE energy storage for the workbench.",
+  "config.extremecraftingtable.energy.workbenchMaxReceive": "Workbench Max Receive",
+  "config.extremecraftingtable.energy.workbenchMaxReceive.tooltip": "Maximum FE per tick the workbench can receive."
+}

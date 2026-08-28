@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+out/
+
+# Minecraft run directory & logs
+run/
+logs/
+eula.txt/
+options.txt/
+usercache.json/
+
+# Decompilation scratch files dumped in root
+*.class
+net/
+
+# Dev helper leftovers
+__pycache__/
+*.pyc
+cp.py
+read_properties.py
+.qp_tree.json
+libs/
+
+# Tool state
+.zcode/
+.claude/
+*.launch

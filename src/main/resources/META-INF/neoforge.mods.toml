@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+issueTrackerURL = ""
+
+[[mods]]
+    modId = "extremecraftingtable"
+    version = "${version}"
+    displayName = "Extreme Crafting Table"
+    logoFile = ""
+    credits = "Original Workbench Plus from QuarryPlus by Kotori316"
+    authors = "ExtremeCraftingTable"
+    description = '''
+A standalone auto-crafting workbench mod.
+Extracted from QuarryPlus Workbench Plus and refactored for NeoForge 1.21.
+
+Place ingredients, select a recipe, and the workbench will automatically craft items using FE energy.
+'''
+
+# Hard dependencies — best practice for NeoForge 1.21+ to declare the loader
+# and the Minecraft version range explicitly so the mod manager can show
+# compatibility without launching the game to discover the failure.
+[[dependencies.extremecraftingtable]]
+    modId = "neoforge"
+    type = "required"
+    # This version is generated as part of an MC 1.21.1 mod, but is a NeoForge version range
+    versionRange = "[21.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.extremecraftingtable]]
+    modId = "minecraft"
+    type = "required"
+    # Bumped together with gradle.properties#minecraft_version via the
+    # processResources expand map below. Format: "[<current>,<next-major>)"
+    # using strict SemVer. Keep the upper bound at next-major so a future
+    # Minecraft release that changes format forces an explicit bump.
+    versionRange = "[${minecraft_version},${minecraft_version_next})"
+    ordering = "NONE"
+    side = "BOTH"

@@ -1,0 +1,14 @@
+{
+  "language": "zh_cn",
+  "item.extremecraftingtable.workbench": "极致工作台",
+  "block.extremecraftingtable.workbench": "极致工作台",
+  "itemGroup.extremecraftingtable": "极致工作台",
+  "container.extremecraftingtable.workbench": "极致工作台",
+  "gui.extremecraftingtable.jei.category": "极致工作台配方",
+  "config.extremecraftingtable.energy.noEnergy": "无能量模式",
+  "config.extremecraftingtable.energy.noEnergy.tooltip": "启用后，能量系统完全禁用：配方无需消耗能量即可合成，且能量缓冲区不会充电（能量条保持空）。适用于创造/测试模式。",
+  "config.extremecraftingtable.energy.workbenchCapacity": "工作台能量容量",
+  "config.extremecraftingtable.energy.workbenchCapacity.tooltip": "工作台最大 FE 能量存储。",
+  "config.extremecraftingtable.energy.workbenchMaxReceive": "工作台最大接收速率",
+  "config.extremecraftingtable.energy.workbenchMaxReceive.tooltip": "工作台每 tick 最大 FE 接收量。"
+}
